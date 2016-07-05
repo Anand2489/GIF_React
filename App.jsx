@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-// require("./css/bootstrap.css");
 
 var limit = 48;
 var base_url = "http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit="+limit.toString()+"&q=";
@@ -65,8 +64,6 @@ var ImageContainer = React.createClass ({
     }
     return(
       <div className='container' id='img_gallery'>
-        {/*<div className="row">
-          <div className=*/}
         {imgResult}
       </div>
     );
