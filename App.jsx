@@ -85,6 +85,7 @@ var App = React.createClass({
     $.ajax({
 			type : "GET",
 			dataType : "json",
+      cache: true,
 			url : base_url+query ,
 			success : function(response){
 				// console.log(response.status);
